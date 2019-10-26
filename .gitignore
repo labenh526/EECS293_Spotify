@@ -479,4 +479,11 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/react,python,visualstudio,visualstudiocode
+# Logs
+logs
+*.Logs
+# Compiled directory and file
+build/
+bundle.js
+# Dependency directories
+node_modules/
