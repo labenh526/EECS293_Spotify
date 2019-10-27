@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import logo from './logo.png';
 
 class NavBar extends Component {
   render() {
@@ -8,6 +9,8 @@ class NavBar extends Component {
         <ul id="headerButtons">
           <li className="navButton"><Link to="">Home</Link></li>
         </ul>
+        <b><font size="12">Tortoise</font></b>
+        <p><img src={logo}/></p>
       </header>
     )
   }
